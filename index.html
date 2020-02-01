@@ -8,7 +8,7 @@
     <header>
       <!-- Верхняя панель -->
       <div class="top-header">
-        <a>
+        <a href="index.html">
           <img src="https://via.placeholder.com/150x100" alt="Логотип интернет-магазина «Техномарт»">
         </a>
         <button type="button">Поиск:</button>
@@ -30,11 +30,9 @@
         строительных материалов
         и инструментов для ремонта
       </h1>
-      <img src="https://via.placeholder.com/150x100" alt="icon-telephone">
       <a href="#">>+7(812)555-05-55</a>
       <address>г.Санкт-Петербург,ул.Б.Конбшенная,д.19/8</address>
       <div class="input">
-        <img src="https://via.placeholder.com/150x100" alt="icon-input"> <!-- Будет кнопка вместе с иконкой -->
         <button>Войти</button>
       </div>
       <div class="registration">
@@ -61,32 +59,28 @@
         <ul>
           <li>
             <p>Материалы</p>
-            <button type="button">На любой вкус</button>
-            <img src="https://via.placeholder.com/150x100" alt="Материалы">
+            <a href="#">На любой вкус</a>
           </li>
           <li>
             <p>Инструмент</p>
-            <button type="button">На все случаи</button>
-            <img src="https://via.placeholder.com/150x100" alt="Материалы">
+            <a href="#">На все случаи</a>
           </li>
           <li>
             <p>Техника</p>
-            <button type="button">Для стройки</button>
-            <img src="https://via.placeholder.com/150x100" alt="Материалы">
+            <a href="#">Для стройки</a>
           </li>
           <li>
             <p>Скидки 50%</p>
-            <button type="button">На 350 товаров</button>
-            <img src="https://via.placeholder.com/150x100" alt="Материалы">
+            <a href="#">На 350 товаров</a>
           </li>
           <li>
             <p>Доставка</p>
-            <button type="button">Бесплатно</button>
-            <img src="https://via.placeholder.com/150x100" alt="Материалы">
+            <a href="#">Бесплатно</a>
           </li>
           <li class="large">
-            <p>Материалы</p>
-            <button type="button">Открыть каталог</button>
+            <p>Дрели</p>
+            <p>Соседям на радость!</p>
+            <a href="inner.html">Открыть каталог</a>
           </li>
         </ul>
       </section>
@@ -94,7 +88,7 @@
       <section class="popular-products">
         <div>
           <h2>Популярные товары:</h2>
-          <button class="button">Все популярные товары</button>
+          <a href="inner.html">Все популярные товары</a>
         </div>
         <ul>
           <li>
@@ -158,17 +152,33 @@
       <section class="popular-manufacturer">
         <div>
           <h2>Популярные производители:</h2>
-          <button class="button">Все производители</button>
+          <a href="inner.html">Все производители</a>
         </div>
         <ul>
-          <li><img src="https://via.placeholder.com/150x100" alt="BOSCH"></li>
-          <li><img src="https://via.placeholder.com/150x100" alt="Takita"></li>
-          <li><img src="https://via.placeholder.com/150x100" alt="DeWALT"></li>
-          <li><img src="https://via.placeholder.com/150x100" alt="Интерскол"></li>
-          <li><img src="https://via.placeholder.com/150x100" alt="HITACHI"></li>
-          <li><img src="https://via.placeholder.com/150x100" alt="LG"></li>
-          <li><img src="https://via.placeholder.com/150x100" alt="AEG"></li>
-          <li><img src="https://via.placeholder.com/150x100" alt="metabo"></li>
+          <a href="#">
+            <li><img src="https://via.placeholder.com/150x100" alt="BOSCH"></li>
+          </a>
+          <a href="#">
+            <li><img src="https://via.placeholder.com/150x100" alt="Takita"></li>
+          </a>
+          <a href="#">
+            <li><img src="https://via.placeholder.com/150x100" alt="DeWALT"></li>
+          </a>
+          <a href="#">
+            <li><img src="https://via.placeholder.com/150x100" alt="Интерскол"></li>
+          </a>
+          <a href="#">
+            <li><img src="https://via.placeholder.com/150x100" alt="HITACHI"></li>
+          </a>
+          <a href="#">
+            <li><img src="https://via.placeholder.com/150x100" alt="LG"></li>
+          </a>
+          <a href="#">
+            <li><img src="https://via.placeholder.com/150x100" alt="AEG"></li>
+          </a>
+          <a href="#">
+            <li><img src="https://via.placeholder.com/150x100" alt="metabo"></li>
+          </a>
         </ul>
       </section>
       <!-- Сервисы -->
@@ -179,19 +189,18 @@
           Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.
         </p>
         <ul>
-          <li>Доставка</li>
-          <li>Гарантия</li>
-          <li>Кредит</li>
+          <li><button type="button">Доставка</button></li>
+          <li><button type="button">Гарантия</button></li>
+          <li><button type="button">Кредит</button></li>
         </ul>
         <div>
-          <p>Доставка</p>
+          <h4>Доставка</h4>
           <p>
             Мы с удовольствием доставим ваш товар прямо
             к вашему подъезду совершенно бесплатно!
             Ведь мы неплохо заработаем,
             поднимая его на ваш этаж!
           </p>
-          <img src="https://via.placeholder.com/150x100" alt="Car">
         </div>
       </section>
       <!-- Чуть о компании и контакты -->
@@ -218,7 +227,9 @@
             Вы можете забрать товар сами,<br>
             заехав в наш офис:
           </p>
-          <a href="map.html">Как проехать</a>
+          <a href="map.html">
+            <img src="https://via.placeholder.com/150x100" alt="Большая Конюшенная, дом 19 строение 8">
+          </a>
           <button type="button">Заблудились? Напишите нам!</button>
         </div>
       </section>
