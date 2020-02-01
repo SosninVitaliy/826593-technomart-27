@@ -8,22 +8,15 @@
     <header>
       <!-- Верхняя панель -->
       <div class="top-header">
+        <a href="index.html">
+          <img src="https://via.placeholder.com/150x100" alt="Логотип интернет-магазина «Техномарт»">
+        </a>
+        <button type="button">Поиск:</button>
         <ul>
-          <li class="logo">
-            <a>
-              <img src="https://via.placeholder.com/150x100" alt="Логотип интернет-магазина «Техномарт»">
-            </a>
-          </li>
-          <li class="search">
-            <img src="https://via.placeholder.com/150x100" alt="icon-search">
-            <button type="button">Поиск:</button>
-          </li>
           <li>
-            <img src="https://via.placeholder.com/150x100" alt="icon-bookmarks">
             <a href="#">Закладки: 0</a>
           </li>
           <li>
-            <img src="https://via.placeholder.com/150x100" alt="icon-basket">
             <a href="#">Корзина: 0</a>
           </li>
           <li>
@@ -32,14 +25,15 @@
         </ul>
       </div>
       <!-- Главная информация -->
-      <h1>
+      <p>
         Интернет-магазин
         строительных материалов
         и инструментов для ремонта
-      </h1>
-      <img src="https://via.placeholder.com/150x100" alt="icon-telephone">
-      <a href="#">>+7(812)555-05-55</a>
-      <address>г.Санкт-Петербург,ул.Б.Конбшенная,д.19/8</address>
+      </p>
+      <address>
+      <p>href="#">>+7(812)555-05-55</p>
+      <p>г.Санкт-Петербург,ул.Б.Конбшенная,д.19/8
+      </address>
       <div class="person">
         <img src="https://via.placeholder.com/150x100" alt="icon-person">
         <p>Равшан Джамшутович</p>
@@ -63,9 +57,10 @@
       </nav>
     </header>
     <!-- Основная часть -->
+    <h1 class="hidden">Каталог строительных материалов</h1> <!-- будет скрыт -->
     <main>
       <ul>
-        <li><a href="#"><img src="https://via.placeholder.com/150x100" alt="На главную"></a></li>
+        <li class="icon-home"><a href="#"></a></li>
         <li><a href="inner.html">Каталог</a></li>
         <li><a href="#">Инструмент</a></li>
         <li>Перфораторы</li>
@@ -80,12 +75,12 @@
       <div class="sort">
         <p>Сортировка:</p>
         <ul>
-          <li>По цене</li>
-          <li>По типу</li>
-          <li>По функциональности</li>
+          <li><a href="#">По цене</a></li>
+          <li><a href="#">По типу</a></li>
+          <li><a href="#">По функциональности</a></li>
         </ul>
-        <img src="https://via.placeholder.com/150x100" alt="icon-top">
-        <img src="https://via.placeholder.com/150x100" alt="icon-bottom">
+        <a href="#" class="icon-top"></a>
+        <a href="#" class="icon-bottom"></a>
       </div>
       <section class="item-card">
         <h2>Список товаров</h2> <!-- Заголовок для логики -->
@@ -215,12 +210,12 @@
           </li>
         </ul>
         <!-- Навигация по страницам -->
-        <div class="page">
-          <a href="#">1</a>
-          <a href="#">2</a>
-          <a href="#">3</a>
-          <a href="#">Следующая</a>
-        </div>
+        <ul>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>Следующая</li>
+        </ul>
       </section>
       <!-- Дополнительная информация -->
       <section class="addition">
@@ -234,12 +229,14 @@
     </main>
     <!-- Футер -->
     <footer>
+      <!-- Первый блок футера -->
       <div class="footer-first">
         <a>
           <img src="https://via.placeholder.com/150x100" alt="Логотип интернет-магазина «Техномарт»">
         </a>
-        <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-        <a href="#">+7 (812) 555-05-55</a>
+        <address>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+        +7 (812) 555-05-55
+        </address>
         <ul>
           <li><a href="#">Компания</a></li>
           <li><a href="#">Новости</a></li>
@@ -254,6 +251,7 @@
           <li><a href="#">Спецпредложения</a></li>
         </ul>
       </div>
+      <!-- Второй блок футера -->
       <div class="footer-second">
         <p>
           &copy; 2010-2017 Компания «Техномарт»<br>
